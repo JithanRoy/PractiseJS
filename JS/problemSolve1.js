@@ -18,6 +18,6 @@ const sortAsLength = (data) => {
     return data.split(" ").sort((a,b) => a.length - b.length).join(" ");
 }
 
-// console.log(resObj(dubElement)); 
+console.log(resObj(dubElement)); 
 // console.log(strReverse(str));
-console.log(sortAsLength(sortLength));
+// console.log(sortAsLength(sortLength));
